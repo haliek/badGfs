@@ -1,0 +1,896 @@
+[
+  {
+    "Source": 1,
+    "Target": 41,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 2,
+    "Target": 15,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 2,
+    "Target": 33,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 3,
+    "Target": 7,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 3,
+    "Target": 47,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 3,
+    "Target": 42,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 4,
+    "Target": 15,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 4,
+    "Target": 17,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 5,
+    "Target": 27,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 5,
+    "Target": 1,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 6,
+    "Target": 48,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 6,
+    "Target": 33,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 7,
+    "Target": 33,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 7,
+    "Target": 42,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 7,
+    "Target": 49,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 7,
+    "Target": 29,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 7,
+    "Target": 20,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 8,
+    "Target": 23,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 8,
+    "Target": 33,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 9,
+    "Target": 33,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 9,
+    "Target": 39,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 10,
+    "Target": 7,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 10,
+    "Target": 3,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 10,
+    "Target": 20,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 11,
+    "Target": 46,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 11,
+    "Target": 44,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 11,
+    "Target": 50,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 12,
+    "Target": 33,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 12,
+    "Target": 19,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 13,
+    "Target": 33,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 14,
+    "Target": 28,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 15,
+    "Target": 9,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 15,
+    "Target": 19,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 16,
+    "Target": 51,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 16,
+    "Target": 52,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 16,
+    "Target": 53,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 16,
+    "Target": 39,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 16,
+    "Target": 36,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 17,
+    "Target": 4,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 17,
+    "Target": 29,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 18,
+    "Target": 18,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 18,
+    "Target": 42,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 18,
+    "Target": 7,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 19,
+    "Target": 33,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 19,
+    "Target": 54,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 19,
+    "Target": 2,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 20,
+    "Target": 55,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 20,
+    "Target": 28,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 20,
+    "Target": 15,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 20,
+    "Target": 2,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 20,
+    "Target": 14,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 20,
+    "Target": 24,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 20,
+    "Target": 40,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 21,
+    "Target": 19,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 21,
+    "Target": 7,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 21,
+    "Target": 15,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 21,
+    "Target": 2,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 21,
+    "Target": 40,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 21,
+    "Target": 56,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 21,
+    "Target": 57,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 22,
+    "Target": 33,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 23,
+    "Target": 58,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 23,
+    "Target": 59,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 23,
+    "Target": 60,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 23,
+    "Target": 61,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 23,
+    "Target": 62,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 24,
+    "Target": 63,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 24,
+    "Target": 28,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 24,
+    "Target": 14,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 24,
+    "Target": 40,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 25,
+    "Target": 48,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 25,
+    "Target": 64,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 25,
+    "Target": 65,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 26,
+    "Target": 33,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 26,
+    "Target": 38,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 27,
+    "Target": 1,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 28,
+    "Target": 40,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 28,
+    "Target": 10,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 28,
+    "Target": 15,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 28,
+    "Target": 2,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 28,
+    "Target": 66,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 28,
+    "Target": 67,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 29,
+    "Target": 4,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 29,
+    "Target": 68,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 30,
+    "Target": 33,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 30,
+    "Target": 69,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 31,
+    "Target": 33,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 31,
+    "Target": 70,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 31,
+    "Target": 71,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 31,
+    "Target": 72,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 32,
+    "Target": 17,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 32,
+    "Target": 4,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 33,
+    "Target": 39,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 33,
+    "Target": 36,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 33,
+    "Target": 34,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 33,
+    "Target": 35,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 33,
+    "Target": 15,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 33,
+    "Target": 37,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 33,
+    "Target": 73,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 34,
+    "Target": 38,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 35,
+    "Target": 74,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 35,
+    "Target": 6,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 36,
+    "Target": 75,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 36,
+    "Target": 76,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 37,
+    "Target": 77,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 37,
+    "Target": 78,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 37,
+    "Target": 46,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 38,
+    "Target": 33,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 38,
+    "Target": 79,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 38,
+    "Target": 80,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 38,
+    "Target": 6,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 39,
+    "Target": 46,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 39,
+    "Target": 81,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 39,
+    "Target": 37,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 40,
+    "Target": 15,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 40,
+    "Target": 2,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 40,
+    "Target": 33,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 40,
+    "Target": 39,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 40,
+    "Target": 7,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 40,
+    "Target": 66,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 41,
+    "Target": 82,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 41,
+    "Target": 3,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 41,
+    "Target": 4,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 41,
+    "Target": 5,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 41,
+    "Target": 7,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 41,
+    "Target": 8,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 41,
+    "Target": 9,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 41,
+    "Target": 15,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 41,
+    "Target": 21,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 41,
+    "Target": 24,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 41,
+    "Target": 27,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 41,
+    "Target": 28,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 41,
+    "Target": 33,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 41,
+    "Target": 40,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 41,
+    "Target": 42,
+    "Type ": "undirected",
+    "Weight": 1
+  },
+  {
+    "Source": 42,
+    "Target": 83,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 42,
+    "Target": 84,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 43,
+    "Target": 46,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 43,
+    "Target": 45,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 44,
+    "Target": 45,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 44,
+    "Target": 85,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 44,
+    "Target": 86,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 44,
+    "Target": 87,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 45,
+    "Target": 88,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 45,
+    "Target": 89,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 46,
+    "Target": 90,
+    "Type ": "undirected",
+    "Weight": 2
+  },
+  {
+    "Source": 46,
+    "Target": 43,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 46,
+    "Target": 91,
+    "Type ": "undirected",
+    "Weight": 3
+  },
+  {
+    "Source": 46,
+    "Target": 44,
+    "Type ": "undirected",
+    "Weight": 2
+  }
+]

@@ -1,0 +1,386 @@
+[
+  {
+    "members": [
+      {
+        "id": "stein-gertrude",
+        "uri": "https://shakespeareandco.princeton.edu/members/stein-gertrude/",
+        "name": "Gertrude Stein",
+        "sort_name": "Stein, Gertrude"
+      }
+    ],
+    "location_name": "",
+    "street_address": "27 rue de Fleurus",
+    "city": "Paris",
+    "postal_code": "75006",
+    "latitude": 48.84691,
+    "longitude": 2.32937,
+    "country": "France",
+    "arrondissement": 6
+  },
+  {
+    "members": [
+      {
+        "id": "stein-gertrude",
+        "uri": "https://shakespeareandco.princeton.edu/members/stein-gertrude/",
+        "name": "Gertrude Stein",
+        "sort_name": "Stein, Gertrude"
+      }
+    ],
+    "location_name": "La Villa des Oliviers",
+    "street_address": "13 rue des Capucines",
+    "city": "Cagnes-sur-Mer",
+    "postal_code": "06800",
+    "latitude": 43.65576,
+    "longitude": 7.15934,
+    "country": "France"
+  },
+  {
+    "members": [
+      {
+        "id": "wood-thelma",
+        "uri": "https://shakespeareandco.princeton.edu/members/wood-thelma/",
+        "name": "Thelma Wood",
+        "sort_name": "Wood, Thelma"
+      }
+    ],
+    "location_name": "",
+    "street_address": "16 rue Delambre",
+    "city": "Paris",
+    "postal_code": "75014",
+    "latitude": 48.84192,
+    "longitude": 2.32767,
+    "country": "France",
+    "arrondissement": 14
+  },
+  {
+    "members": [
+      {
+        "id": "wood-thelma",
+        "uri": "https://shakespeareandco.princeton.edu/members/wood-thelma/",
+        "name": "Thelma Wood",
+        "sort_name": "Wood, Thelma"
+      }
+    ],
+    "location_name": "",
+    "street_address": "173 boulevard Saint-Germain",
+    "city": "Paris",
+    "postal_code": "75006",
+    "latitude": 48.85422,
+    "longitude": 2.33071,
+    "country": "France",
+    "arrondissement": 6
+  },
+  {
+    "members": [
+      {
+        "id": "solano",
+        "uri": "https://shakespeareandco.princeton.edu/members/solano/",
+        "name": "Solita Solano",
+        "sort_name": "Solano, Solita"
+      }
+    ],
+    "location_name": "Hôtel Saint Germain des Prés",
+    "street_address": "36 rue Bonaparte",
+    "city": "Paris",
+    "postal_code": "75006",
+    "latitude": 48.85509,
+    "longitude": 2.33358,
+    "country": "France",
+    "arrondissement": 6
+  },
+  {
+    "members": [
+      {
+        "id": "flanner-janet",
+        "uri": "https://shakespeareandco.princeton.edu/members/flanner-janet/",
+        "name": "Janet Flanner",
+        "sort_name": "Flanner, Janet"
+      }
+    ],
+    "location_name": "Hôtel Saint Germain des Prés",
+    "street_address": "36 rue Bonaparte",
+    "city": "Paris",
+    "postal_code": "75006",
+    "latitude": 48.85509,
+    "longitude": 2.33358,
+    "country": "France",
+    "arrondissement": 6
+  },
+  {
+    "members": [
+      {
+        "id": "flanner-janet",
+        "uri": "https://shakespeareandco.princeton.edu/members/flanner-janet/",
+        "name": "Janet Flanner",
+        "sort_name": "Flanner, Janet"
+      }
+    ],
+    "location_name": "Guaranty Trust Company",
+    "street_address": "1 and 3 rue des Italiens",
+    "city": "Paris",
+    "postal_code": "75009",
+    "latitude": 48.87159,
+    "longitude": 2.3357,
+    "country": "France",
+    "arrondissement": 9
+  },
+  {
+    "members": [
+      {
+        "id": "barney-natalie-clifford",
+        "uri": "https://shakespeareandco.princeton.edu/members/barney-natalie-clifford/",
+        "name": "Natalie Clifford Barney",
+        "sort_name": "Barney, Natalie Clifford"
+      }
+    ],
+    "location_name": "",
+    "street_address": "20 rue Jacob",
+    "city": "Paris",
+    "postal_code": "75006",
+    "latitude": 48.85536,
+    "longitude": 2.33564,
+    "country": "France",
+    "arrondissement": 6
+  },
+  {
+    "members": [
+      {
+        "id": "barnes-djuna",
+        "uri": "https://shakespeareandco.princeton.edu/members/barnes-djuna/",
+        "name": "Djuna Barnes",
+        "sort_name": "Barnes, Djuna"
+      }
+    ],
+    "location_name": "",
+    "street_address": "9 rue Saint-Romain",
+    "city": "Paris",
+    "postal_code": "75006",
+    "latitude": 48.84774,
+    "longitude": 2.32122,
+    "country": "France",
+    "arrondissement": 6
+  },
+  {
+    "members": [
+      {
+        "id": "anderson-margaret",
+        "uri": "https://shakespeareandco.princeton.edu/members/anderson-margaret/",
+        "name": "Margaret C. Anderson",
+        "sort_name": "Anderson, Margaret C."
+      }
+    ],
+    "location_name": "",
+    "street_address": "80 rue de l'Université",
+    "city": "Paris",
+    "postal_code": "75007",
+    "latitude": 48.85908,
+    "longitude": 2.32429,
+    "country": "France",
+    "arrondissement": 7
+  },
+  {
+    "members": [
+      {
+        "id": "abbott-berenice",
+        "uri": "https://shakespeareandco.princeton.edu/members/abbott-berenice/",
+        "name": "Berenice Abbott",
+        "sort_name": "Abbott, Berenice"
+      }
+    ],
+    "location_name": "",
+    "street_address": "44 rue du Bac",
+    "city": "Paris",
+    "postal_code": "75007",
+    "latitude": 48.85681,
+    "longitude": 2.32644,
+    "country": "France",
+    "arrondissement": 7
+  },
+  {
+    "members": [
+      {
+        "id": "wilde-dorothy",
+        "uri": "https://shakespeareandco.princeton.edu/members/wilde-dorothy/",
+        "name": "Dolly Wilde / Miss Dorothy Wilde",
+        "sort_name": "Wilde, Dolly"
+      }
+    ],
+    "location_name": "Hôtel du Portugal",
+    "street_address": "allée du Parc",
+    "city": "Vernet-les-Bains",
+    "postal_code": "66820",
+    "latitude": 42.54433,
+    "longitude": 2.38898,
+    "country": "France"
+  },
+  {
+    "members": [
+      {
+        "id": "hulme-kathryn",
+        "uri": "https://shakespeareandco.princeton.edu/members/hulme-kathryn/",
+        "name": "Kathryn Hulme",
+        "sort_name": "Hulme, Kathryn"
+      }
+    ],
+    "location_name": "",
+    "street_address": "2 rue Brémontier",
+    "city": "Paris",
+    "postal_code": "75017",
+    "latitude": 48.88502,
+    "longitude": 2.31461,
+    "country": "France",
+    "arrondissement": 17
+  },
+  {
+    "members": [
+      {
+        "id": "monnier-adrienne",
+        "uri": "https://fr.wikipedia.org/wiki/Adrienne_Monnier",
+        "name": "Adrienne Monnier",
+        "sort_name": "Monnier, Adrienne"
+      }
+    ],
+    "location_name": "La Maison des Amis des Livres",
+    "street_address": "7 rue de l'Odéon",
+    "city": "Paris",
+    "postal_code": "75006",
+    "latitude": 48.8511,
+    "longitude": 2.3386,
+    "country": "France",
+    "arrondissement": 6,
+    "notes": "Adrienne Monnier founded the influential bookstore 'La Maison des Amis des Livres' here in 1915, which became a hub for modernist writers."
+  },
+  {
+    "members": [
+      {
+        "id": "toklas-alice-b",
+        "uri": "https://en.wikipedia.org/wiki/Alice_B._Toklas",
+        "name": "Alice B. Toklas",
+        "sort_name": "Toklas, Alice B."
+      }
+    ],
+    "location_name": "Gertrude Stein's Salon",
+    "street_address": "27 rue de Fleurus",
+    "city": "Paris",
+    "postal_code": "75006",
+    "latitude": 48.8468,
+    "longitude": 2.3293,
+    "country": "France",
+    "arrondissement": 6,
+    "notes": "Alice B. Toklas lived here with her partner Gertrude Stein from 1907 until Stein's death in 1946. Their salon attracted many notable artists and writers."
+  },
+  {
+    "members": [
+      {
+        "id": "colette",
+        "uri": "https://en.wikipedia.org/wiki/Colette",
+        "name": "Colette",
+        "sort_name": "Colette"
+      }
+    ],
+    "location_name": "Residence",
+    "street_address": "25 rue Saint-Senoch",
+    "city": "Paris",
+    "postal_code": "75017",
+    "latitude": 48.8824,
+    "longitude": 2.2942,
+    "country": "France",
+    "arrondissement": 17,
+    "notes": "Colette resided at this address from 1908 to 1911 during her literary career."
+  },
+  {
+    "members": [
+      {
+        "id": "colette",
+        "uri": "https://en.wikipedia.org/wiki/Colette",
+        "name": "Colette",
+        "sort_name": "Colette"
+      }
+    ],
+    "location_name": "Final Residence",
+    "street_address": "9 rue de Beaujolais",
+    "city": "Paris",
+    "postal_code": "75001",
+    "latitude": 48.8663,
+    "longitude": 2.3376,
+    "country": "France",
+    "arrondissement": 1,
+    "notes": "Colette lived here from 1927 until her death in 1954. The apartment overlooks the Palais-Royal gardens."
+  },
+  {
+    "members": [
+      {
+        "id": "colette",
+        "uri": "https://en.wikipedia.org/wiki/Colette",
+        "name": "Colette",
+        "sort_name": "Colette"
+      }
+    ],
+    "location_name": "Early Residence",
+    "street_address": "55 quai des Grands Augustins",
+    "city": "Paris",
+    "postal_code": "75006",
+    "latitude": 48.8556,
+    "longitude": 2.3408,
+    "country": "France",
+    "arrondissement": 6,
+    "notes": "Colette resided here in 1893 during the early stages of her writing career."
+  },
+  {
+    "members": [
+      {
+        "id": "de-lanux-eyre",
+        "uri": "https://en.wikipedia.org/wiki/Eyre_de_Lanux",
+        "name": "Eyre de Lanux",
+        "sort_name": "De Lanux, Eyre"
+      }
+    ],
+    "location_name": "Studio and Residence",
+    "street_address": "33 rue Guénégaud",
+    "city": "Paris",
+    "postal_code": "75006",
+    "latitude": 48.8566,
+    "longitude": 2.3376,
+    "country": "France",
+    "arrondissement": 6,
+    "notes": "Eyre de Lanux, an American artist and designer, lived and worked here during the 1920s, contributing to the Art Deco movement."
+  },
+  {
+    "members": [
+      {
+        "id": "de-morny-mathilde",
+        "uri": "https://en.wikipedia.org/wiki/Mathilde_de_Morny",
+        "name": "Mathilde de Morny",
+        "sort_name": "De Morny, Mathilde"
+      }
+    ],
+    "location_name": "Private Residence",
+    "street_address": "2 rue Georges-Ville",
+    "city": "Paris",
+    "postal_code": "75016",
+    "latitude": 48.8647,
+    "longitude": 2.2758,
+    "country": "France",
+    "arrondissement": 16,
+    "notes": "Known as 'Missy,' Mathilde de Morny lived here and had a notable relationship with Colette."
+  },
+  {
+    "members": [
+      {
+        "id": "beach-sylvia",
+        "uri": "https://en.wikipedia.org/wiki/Sylvia_Beach",
+        "name": "Sylvia Beach",
+        "sort_name": "Beach, Sylvia"
+      }
+    ],
+    "location_name": "Shakespeare and Company Bookstore",
+    "street_address": "12 rue de l'Odéon",
+    "city": "Paris",
+    "postal_code": "75006",
+    "latitude": 48.8511,
+    "longitude": 2.3386,
+    "country": "France",
+    "arrondissement": 6,
+    "notes": "Sylvia Beach founded the bookstore 'Shakespeare and Company' here in 1919, which became a gathering place for expatriate writers."
+  }
+]

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bad Girlfriend Members of Shakespeare and Co</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- jQuery and Leaflet JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1><em>Bad Girlfriends</em> (Interactive)</h1>
+
+       <p>In Paris from 1900-1940, there was a flourishing queer network of women who help shape the culture in France and abroad. <br><br>They lived mostly openly and created art that reflected their experiences. While many of their outputs may not have been as famous as their contemporaries, when evaluated today, they are important records of a unique subculture. <br><br>While not all of these women were bad girlfriends (although some definitely were), the title of the project is based on a quote by Sarah Schulman<br><br><i>“...I’m sure you noticed that the book is dedicated to Thelma Wood, who was, historically, one of the world’s worst girlfriends who ever lived. She was the bad girlfriend of Djuna Barnes and she drove Djuna Barnes so crazy that she was the muse for Djuna Barnes’s work. So the book is dedicated to bad girlfriends.” </i><br> <a href="https://lareviewofbooks.org/article/taking-responsibility-an-interview-with-sarah-schulman/" target="_blank">
+  Sarah Schulman, <em>LA Review of Books</em>, 2018
+</a></p>
+
+      <h2>Where they lived and gathered </h2>
+     
+ 
+</p>
+      <div id="map" style="height: 600px;"></div>
+      <button id="myButton">Reset Zoom</button>
+
+       <!-- Your custom JavaScript -->
+    <script src="map.js"></script>
+    <h2>Relationship Network</h2>
+<svg id="network" width="800" height="600"></svg>
+    </div>
+
+   
+
+<!-- D3.js library -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<!-- Your custom network graph script -->
+<script src="network.js"></script>
+  </body>
+</html>
