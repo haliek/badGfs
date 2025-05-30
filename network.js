@@ -1,24 +1,31 @@
 const width = 800;
 const height = 600;
 
+// Create SVG and zoom group
 const svg = d3.select("#network")
   .attr("width", width)
   .attr("height", height);
 
+const zoomGroup = svg.append("g");
+
+// Setup zoom slider
+const zoomSlider = document.getElementById("zoom-slider");
+let currentZoom = 1;
+
+zoomSlider.addEventListener("input", function () {
+  currentZoom = parseFloat(this.value);
+  zoomGroup.attr("transform", `scale(${currentZoom})`);
+});
 
 Promise.all([
   d3.json("network_nodes.json"),
   d3.json("network_edges.json")
 ]).then(([nodes, edges]) => {
-
-  // DEBUG: check keys
-  console.log("Nodes:", nodes);
-  console.log("Edges:", edges);
-
-  // Remove trailing whitespace from keys for safer access
+  // Clean node and edge data
   nodes.forEach(d => {
-    d.id = d["ID "]; // Fix for 'ID '
-    d.label = d.Label; // assuming 'Label' is OK
+    d.id = d["ID "];  // clean trailing space
+    d.label = d.Label;
+    d.gender = d["Gender "];
   });
 
   edges.forEach(d => {
@@ -26,24 +33,30 @@ Promise.all([
     d.target = d.Target;
   });
 
+  // Color scale for gender
+  const genderColor = d3.scaleOrdinal()
+    .domain(["F", "NC", "nd"])
+    .range(["#f48fb1", "#81d4fa", "#cfd8dc"]);
+
+  // Force simulation
   const simulation = d3.forceSimulation(nodes)
     .force("link", d3.forceLink(edges).id(d => d.id).distance(100))
     .force("charge", d3.forceManyBody().strength(-300))
     .force("center", d3.forceCenter(width / 2, height / 2));
 
-  const link = svg.selectAll("line")
+  const link = zoomGroup.selectAll("line")
     .data(edges)
     .enter().append("line")
     .attr("stroke", "#aaa");
 
-  const node = svg.selectAll("circle")
+  const node = zoomGroup.selectAll("circle")
     .data(nodes)
     .enter().append("circle")
     .attr("r", 6)
-    .attr("fill", "#69b3a2")
+    .attr("fill", d => genderColor(d.gender))
     .call(drag(simulation));
 
-  const label = svg.selectAll("text")
+  const label = zoomGroup.selectAll("text")
     .data(nodes)
     .enter().append("text")
     .text(d => d.label)
