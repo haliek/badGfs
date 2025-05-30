@@ -3,7 +3,7 @@ body {
   font-family: FreeMono, monospace;
   line-height: 1.6;
   margin: 20px;
-  background-color: #cefff5;
+  background-color: #cefff5; /* light peach */
   color: #222;
 }
 
@@ -15,14 +15,14 @@ body {
 
 h1 {
   text-align: center;
-  color: #4a4a4a;
+  color: #d05e33; /* deep peach */
   margin-bottom: 30px;
 }
 
 h2 {
   margin-top: 40px;
   font-size: 1.4em;
-  color: #333;
+  color: #a84f26; /* warm brown-orange */
 }
 
 /* Poem block if used */
@@ -39,18 +39,18 @@ h2 {
 /* Info term styling */
 .info-term {
   cursor: pointer;
-  color: #0066cc;
-  border-bottom: 1px dotted #0066cc;
+  color: #d05e33;
+  border-bottom: 1px dotted #d05e33;
   text-decoration: none;
   transition: background-color 0.2s ease;
 }
 
 .info-term:hover {
-  background-color: #e0f0ff;
+  background-color: #ffe2cc;
 }
 
 .active-term {
-  background-color: red;
+  background-color: #ff914d;
   color: white;
 }
 
@@ -58,13 +58,13 @@ h2 {
 #info {
   margin-top: 30px;
   padding: 15px;
-  border-left: 5px solid #ddd;
-  background-color: #f9f9f9;
+  border-left: 5px solid #ffb88c;
+  background-color: #fff6f2;
   min-height: 40px;
 }
 
 #info.active-info {
-  border-left-color: #0066cc;
+  border-left-color: #ff914d;
 }
 
 #info p {
@@ -93,16 +93,62 @@ hr {
   display: block;
   margin: 20px auto;
   border: 1px solid #ccc;
+  background-color: #fff3e6;
 }
 
 /* Zoom slider controls */
 #zoom-slider-container {
   text-align: center;
   margin: 10px 0 20px;
+  color: #a84f26;
 }
 
 #zoom-slider {
   width: 200px;
+  appearance: none;
+  height: 6px;
+  background: #ffd6b3;
+  border-radius: 4px;
+  outline: none;
+  transition: background 0.3s ease;
+}
+
+#zoom-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ff914d;
+  cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+
+#zoom-slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ff914d;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+/* Reset Zoom Button */
+#myButton {
+  display: block;
+  margin: 10px auto 20px;
+  padding: 10px 20px;
+  background-color: #ffb88c;
+  color: #4a2e20;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#myButton:hover {
+  background-color: #ff9d5c;
 }
 
 /* Responsive: allow text and visuals to scale well on mobile */
@@ -120,6 +166,8 @@ hr {
     font-size: 1.2em;
   }
 }
+
+/* Legend styling */
 #legend {
   margin-top: 20px;
   padding: 10px;
@@ -154,4 +202,13 @@ hr {
   display: inline-block;
   margin-right: 10px;
   border: 1px solid #999;
+}
+a {
+  color: #f4a261; /* Light peach/orange tone */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e76f51; /* Slightly deeper peach/orange on hover */
+  text-decoration: underline;
 }

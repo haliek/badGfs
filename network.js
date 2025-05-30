@@ -6,7 +6,14 @@ const svg = d3.select("#network")
   .attr("width", width)
   .attr("height", height);
 
+// Append zoom group first
 const zoomGroup = svg.append("g");
+
+// Add background rectangle inside zoom group (so it scales with zoom)
+zoomGroup.append("rect")
+  .attr("width", width)
+  .attr("height", height)
+  .attr("fill", "#fff3e6");  // warm peach background
 
 // Setup zoom slider
 const zoomSlider = document.getElementById("zoom-slider");
@@ -23,7 +30,7 @@ Promise.all([
 ]).then(([nodes, edges]) => {
   // Clean node and edge data
   nodes.forEach(d => {
-    d.id = d["ID "];  // clean trailing space
+    d.id = d["ID "];  // remove trailing space
     d.label = d.Label;
     d.gender = d["Gender "];
   });
@@ -33,7 +40,7 @@ Promise.all([
     d.target = d.Target;
   });
 
-  // Color scale for gender
+  // Gender-based color scale
   const genderColor = d3.scaleOrdinal()
     .domain(["F", "NC", "nd"])
     .range(["#f48fb1", "#81d4fa", "#cfd8dc"]);
