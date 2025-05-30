@@ -1,102 +1,74 @@
-/* Typography and layout */
+/* Base styles */
 body {
-  font-family: FreeMono, monospace;
-  line-height: 1.6;
-  margin: 20px;
-  background-color: #cefff5; /* light peach */
-  color: #222;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.8;
+  margin: 0;
+  background-color: #fefefe;
+  color: #1b1b1b;
+  padding: 20px;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 700px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 20px;
 }
 
 h1 {
   text-align: center;
-  color: #d05e33; /* deep peach */
-  margin-bottom: 30px;
+  font-size: 2.2em;
+  font-weight: 700;
+  color: #d05e33;
+  margin-bottom: 0.6em;
 }
 
 h2 {
-  margin-top: 40px;
-  font-size: 1.4em;
-  color: #a84f26; /* warm brown-orange */
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #a84f26;
+  margin-top: 2.5em;
 }
 
-/* Poem block if used */
-#poem blockquote {
-  margin-left: 40px;
+.subheading {
+  font-size: 1em;
+  font-style: italic;
+  color: #555;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.intro {
   font-size: 1.1em;
-  color: #333;
 }
 
-#poem p {
-  margin-bottom: 0.5em;
+.quote {
+  font-style: italic;
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 
-/* Info term styling */
-.info-term {
-  cursor: pointer;
-  color: #d05e33;
-  border-bottom: 1px dotted #d05e33;
-  text-decoration: none;
-  transition: background-color 0.2s ease;
-}
-
-.info-term:hover {
-  background-color: #ffe2cc;
-}
-
-.active-term {
-  background-color: #ff914d;
-  color: white;
-}
-
-/* Info display block */
-#info {
-  margin-top: 30px;
-  padding: 15px;
-  border-left: 5px solid #ffb88c;
-  background-color: #fff6f2;
-  min-height: 40px;
-}
-
-#info.active-info {
-  border-left-color: #ff914d;
-}
-
-#info p {
-  margin: 0;
-}
-
-/* Divider styling */
-hr {
-  border: none;
-  border-top: 1px solid #eee;
-  margin: 30px 0;
-}
-
-/* Leaflet map */
+/* Map and network */
 #map {
   height: 400px;
   width: 100%;
   border: 1px solid #ccc;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
-/* Network SVG */
 #network {
   width: 100%;
   height: 600px;
-  display: block;
   margin: 20px auto;
+  display: block;
   border: 1px solid #ccc;
   background-color: #fff3e6;
 }
 
-/* Zoom slider controls */
+/* Zoom slider */
 #zoom-slider-container {
   text-align: center;
   margin: 10px 0 20px;
@@ -110,30 +82,19 @@ hr {
   background: #ffd6b3;
   border-radius: 4px;
   outline: none;
-  transition: background 0.3s ease;
 }
 
-#zoom-slider::-webkit-slider-thumb {
-  appearance: none;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: #ff914d;
-  cursor: pointer;
-  border: 2px solid #fff;
-  box-shadow: 0 0 2px rgba(0,0,0,0.2);
-}
-
+#zoom-slider::-webkit-slider-thumb,
 #zoom-slider::-moz-range-thumb {
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #ff914d;
+  background: #ff5c00;
   cursor: pointer;
   border: 2px solid #fff;
 }
 
-/* Reset Zoom Button */
+/* Button */
 #myButton {
   display: block;
   margin: 10px auto 20px;
@@ -151,31 +112,14 @@ hr {
   background-color: #ff9d5c;
 }
 
-/* Responsive: allow text and visuals to scale well on mobile */
-@media (max-width: 600px) {
-  #map,
-  #network {
-    height: 300px;
-  }
-
-  h1 {
-    font-size: 1.5em;
-  }
-
-  h2 {
-    font-size: 1.2em;
-  }
-}
-
-/* Legend styling */
+/* Legend */
 #legend {
   margin-top: 20px;
   padding: 10px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #ccc;
   max-width: 400px;
   font-size: 14px;
-  font-family: Arial, sans-serif;
 }
 
 #legend h3 {
@@ -203,12 +147,49 @@ hr {
   margin-right: 10px;
   border: 1px solid #999;
 }
+
+/* Links */
 a {
-  color: #f4a261; /* Light peach/orange tone */
+  color: #f4a261;
   text-decoration: none;
 }
 
 a:hover {
-  color: #e76f51; /* Slightly deeper peach/orange on hover */
+  color: #e76f51;
   text-decoration: underline;
+}
+
+/* Visually hidden content for screen readers */
+.visually-hidden {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+  border: 0;
+}
+
+.focusable:focus {
+  position: static !important;
+  width: auto; height: auto;
+  padding: 8px 12px;
+  background: #000;
+  color: #fff;
+  z-index: 1000;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.6em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  #map,
+  #network {
+    height: 300px;
+  }
 }

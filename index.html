@@ -3,7 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bad Girlfriend Members of Shakespeare and Co</title>
+  <title>Bad Girlfriends</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
@@ -17,42 +20,57 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
-  <div class="container">
+
+  <!-- Skip link for screen readers -->
+  <a href="#maincontent" class="visually-hidden focusable">Skip to main content</a>
+
+  <header>
     <h1><em>Bad Girlfriends</em></h1>
-    <p>
-      In Paris from 1900-1940, there was a flourishing queer network of women who helped shape the culture in France and abroad.
-      <br><br>They lived mostly openly and created art that reflected their experiences. While many of their outputs may not have been as famous as their contemporaries, when evaluated today, they are important records of a unique subculture.
-      <br><br>While not all of these women were bad girlfriends (although some definitely were), the title of the project is based on a quote by Sarah Schulman:
-      <br><br><i>“...I’m sure you noticed that the book is dedicated to Thelma Wood, who was, historically, one of the world’s worst girlfriends who ever lived... So the book is dedicated to bad girlfriends.”</i>
-      <br>
-      <a href="https://lareviewofbooks.org/article/taking-responsibility-an-interview-with-sarah-schulman/" target="_blank">
-        Sarah Schulman, <em>LA Review of Books</em>, 2018
-      </a>
+  </header>
+
+  <main class="container" id="maincontent">
+    <p class="intro">
+      In Paris from 1900–1940, there was a flourishing queer network of women who helped shape the culture in France and abroad.
+    </p>
+    <p class="intro">
+      They lived mostly openly and created art that reflected their experiences. While many of their outputs may not have been as famous as their contemporaries, when evaluated today, they are important records of a unique subculture.
+    </p>
+    <p class="intro">
+      While not all of these women were bad girlfriends (although some definitely were), the title of the project is based on a quote by Sarah Schulman:
+    </p>
+    <p class="quote">
+      <em>“...I’m sure you noticed that the book is dedicated to Thelma Wood, who was, historically, one of the world’s worst girlfriends who ever lived... So the book is dedicated to bad girlfriends.”</em><br>
+      — <a href="https://lareviewofbooks.org/article/taking-responsibility-an-interview-with-sarah-schulman/" target="_blank">Sarah Schulman, <em>LA Review of Books</em>, 2018</a>
     </p>
 
-    <h2>Where they lived and gathered</h2>
-    <div id="map" style="height: 600px;"></div>
-    <button id="myButton">Reset Zoom</button>
+    <h2>📍 Where They Lived and Gathered</h2>
+    <p class="subheading">Explore homes and meeting spots of key figures in the network.</p>
+    <div id="map" role="region" aria-label="Map of where Bad Girlfriends lived and gathered"></div>
+    <button id="myButton" aria-label="Reset map zoom to default view">Reset Zoom</button>
 
-    <h2>Relationship Network</h2>
-    <div id="zoom-slider-container">
-      <label for="zoom-slider">Zoom</label>
-      <input type="range" id="zoom-slider" min="0.3" max="5" step="0.1" value="1">
+    <h2>🔗 Relationship Network</h2>
+    <p class="subheading">This network visualization explores their interpersonal connections and gender expression.</p>
+
+    <div id="zoom-slider-container" aria-label="Network graph zoom controls">
+      <label for="zoom-slider">Zoom level for network graph</label>
+      <input type="range" id="zoom-slider" name="zoom-slider" min="0.3" max="5" step="0.1" value="1" aria-valuemin="0.3" aria-valuemax="5" aria-valuenow="1" role="slider">
     </div>
-    <svg id="network" width="800" height="600"></svg>
-<div id="legend">
-  <h3>Gender Presentation</h3>
-  <ul>
-    <li><span class="legend-color" style="background-color: #f48fb1;"></span> Female (F)</li>
-    <li><span class="legend-color" style="background-color: #81d4fa;"></span> Nonconforming (NC)</li>
-    <li><span class="legend-color" style="background-color: #cfd8dc;"></span> Not Defined (nd)</li>
-  </ul>
-</div>
+    <svg id="network" role="img" aria-label="Relationship network visualization showing connections among women"></svg>
 
+    <div id="legend">
+      <h3>Gender Presentation</h3>
+      <ul>
+        <li><span class="legend-color" style="background-color: #f48fb1;"></span> Female (F)</li>
+        <li><span class="legend-color" style="background-color: #81d4fa;"></span> Nonconforming (NC)</li>
+        <li><span class="legend-color" style="background-color: #cfd8dc;"></span> Not Defined (nd)</li>
+      </ul>
+    </div>
+  </main>
 
-  </div>
+  <footer>
+    <p class="visually-hidden">End of content</p>
+  </footer>
 
-  <!-- JavaScript for map and network -->
   <script src="map.js"></script>
   <script src="network.js"></script>
 </body>
