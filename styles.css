@@ -193,3 +193,61 @@ a:hover {
     height: 300px;
   }
 }
+#legend-edges {
+  margin-top: 10px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  max-width: 400px;
+  font-size: 14px;
+}
+
+#legend-edges ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#legend-edges li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  gap: 10px;
+}
+#legends-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+#legend, #legend-edges {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 14px;
+  max-width: 300px;
+  flex: 1;
+}
+
+#legend h3,
+#legend-edges h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+#legend ul,
+#legend-edges ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#legend li,
+#legend-edges li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  gap: 10px;
+}

@@ -57,13 +57,34 @@
     </div>
     <svg id="network" role="img" aria-label="Relationship network visualization showing connections among women"></svg>
 
-    <div id="legend">
-      <h3>Gender Presentation</h3>
-      <ul>
-        <li><span class="legend-color" style="background-color: #f48fb1;"></span> Normative</li>
-        <li><span class="legend-color" style="background-color: #81d4fa;"></span> Nonconforming</li>
-        <li><span class="legend-color" style="background-color: #cfd8dc;"></span> Not Defined</li>
-      </ul>
+    <!-- Combined legends in a flex container -->
+    <div id="legends-container">
+      <div id="legend">
+        <h3>Gender Presentation</h3>
+        <ul>
+          <li><span class="legend-color" style="background-color: #f48fb1;"></span> Normative</li>
+          <li><span class="legend-color" style="background-color: #81d4fa;"></span> Nonconforming</li>
+          <li><span class="legend-color" style="background-color: #cfd8dc;"></span> Not Defined</li>
+        </ul>
+      </div>
+
+      <div id="legend-edges">
+        <h3>Relationship Type</h3>
+        <ul>
+          <li>
+            <svg height="4" width="30"><line x1="0" y1="2" x2="30" y2="2" style="stroke:#aaa;stroke-width:1.5" /></svg>
+            Friends / Collaborators / Inspirations
+          </li>
+          <li>
+            <svg height="6" width="30"><line x1="0" y1="3" x2="30" y2="3" style="stroke:#aaa;stroke-width:2.5" /></svg>
+            Lovers
+          </li>
+          <li>
+            <svg height="8" width="30"><line x1="0" y1="4" x2="30" y2="4" style="stroke:#aaa;stroke-width:3.5" /></svg>
+            Life Partners (5+ years)
+          </li>
+        </ul>
+      </div>
     </div>
   </main>
 

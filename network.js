@@ -30,7 +30,7 @@ Promise.all([
 ]).then(([nodes, edges]) => {
   // Clean node and edge data
   nodes.forEach(d => {
-    d.id = d["ID "];  // remove trailing space
+    d.id = d["ID "];
     d.label = d.Label;
     d.gender = d["Gender "];
   });
@@ -38,12 +38,18 @@ Promise.all([
   edges.forEach(d => {
     d.source = d.Source;
     d.target = d.Target;
+    d.Weight = +d.Weight;  // ensure it's numeric
   });
 
   // Gender-based color scale
   const genderColor = d3.scaleOrdinal()
     .domain(["F", "NC", "nd"])
     .range(["#f48fb1", "#81d4fa", "#cfd8dc"]);
+
+  // Stroke width scale for edge weights
+  const weightScale = d3.scaleLinear()
+    .domain([1, 3])
+    .range([1.5, 3.5]);
 
   // Force simulation
   const simulation = d3.forceSimulation(nodes)
@@ -54,7 +60,8 @@ Promise.all([
   const link = zoomGroup.selectAll("line")
     .data(edges)
     .enter().append("line")
-    .attr("stroke", "#aaa");
+    .attr("stroke", "#aaa")
+    .attr("stroke-width", d => weightScale(d.Weight));
 
   const node = zoomGroup.selectAll("circle")
     .data(nodes)
